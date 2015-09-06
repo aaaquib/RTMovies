@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dip" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/thumbnail" />
+ 
+    </LinearLayout>
+ 
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/titleid"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+ 
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/yearid" />
+ 
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/mpaa_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/year"
+        android:text="@string/mpaaid"
+        android:layout_marginTop="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/year"
+        android:textSize="12sp"
+        android:textColor="#343434" />
+ 
+     <!-- Rightend Arrow -->
+     <ImageView
+        android:id="@+id/critics_rating" 
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dip"
+        android:layout_alignBottom="@id/year"
+        android:contentDescription="@string/criticsid"/>
+     
+     <ImageView
+        android:id="@+id/audience_rating" 
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_alignBottom="@id/year"
+        android:contentDescription="@string/criticsid"/>
+ 
+</RelativeLayout>

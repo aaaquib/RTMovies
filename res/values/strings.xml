@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Main Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_username">Username Activity</string>
+    <string name="enterName">Enter Username</string>
+    <string name="clear">Clear All Favorites</string>
+    <string name="setup">Setup Username</string>
+    <string name="exit">Exit</string>
+    <string name="setName">Set Username</string>
+    <string name="title_activity_movies">Movies Activity</string>
+    <string name="thumbnail">Movie Thumbnail</string>
+    <string name="titleid">Movie Title</string>
+    <string name="yearid">year</string>
+    <string name="mpaaid">mpaa</string>
+    <string name="criticsid">critics rating</string>
+    <string name="audienceid">audience rating</string>
+    <string name="title_activity_movie">Movie Activity</string>
+    <string name="lengthid">Length</string>
+    <string name="genreid">Genres</string>
+    <string name="audience">Audience</string>
+    <string name="critics">Critics</string>
+    <string name="title_activity_movie_web">MovieWeb Activity</string>
+    <string name="favTrue">favTrue</string>
+    <string name="favFalse">favFalse</string>
+    <string name="title_activity_statistics">Statistics Activity</string>
+
+</resources>

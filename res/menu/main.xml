@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/clearFav"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/clear"/>
+    
+    <item
+        android:id="@+id/enterName"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/enterName"/>
+    
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/exit"/>
+
+</menu>
